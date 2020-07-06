@@ -6,7 +6,7 @@ from urllib2 import urlopen
 import os, time, subprocess
 from threading import Timer
 import logging
-import ipgetter2 as ipgetter
+from ipgetter2 import ipgetter1 as ipgetter
 import datetime as dt
 import dhbox
 
